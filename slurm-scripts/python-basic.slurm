@@ -24,4 +24,4 @@ module load Anaconda3/5.3.8
 
 set -o errexit
 
-srun python synthesis_scripts/nrwe/nrwe_synthesis_main.py
+srun python path/to/code/main.py
