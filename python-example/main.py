@@ -21,6 +21,8 @@ def main():
     # create a PDF to visualize the results 
     plot_xy(values, squared_values, filename="./figures/squared_values.pdf")
     
+    print("Congrats, all good!")
+    
 
 if __name__ == "__main__":
     main()
